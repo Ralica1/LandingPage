@@ -1,218 +1,218 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
 }
 
 img {
-    width: 100px;
+  width: 100px;
 }
 
 header {
-    background-color: #1f2937;
-    padding: 1em 16em;
+  background-color: #1f2937;
+  padding: 1em 16em;
 }
 
 .header-logo {
-    font-size: 24px;
-    font-weight: 900;
-    color: #F9FAF8;
+  font-size: 24px;
+  font-weight: 900;
+  color: #f9faf8;
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 .navbar ul {
-    list-style-type: none;
-    display: flex;
-    gap: 1em;
+  list-style-type: none;
+  display: flex;
+  gap: 1em;
 }
 
 a {
-    font-size: 18px;
-    color: #E5E7EB;
-    text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration-line: underline;
+  text-decoration-line: underline;
 }
 
 .site-main {
-    background-color: #1f2937;
-    padding: 7em 16em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2em;
+  background-color: #1f2937;
+  padding: 7em 16em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
 }
 
 .main-left {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .main-right {
-    flex-shrink: 0px;
-    width: 50%;
+  flex-shrink: 0px;
+  width: 50%;
 }
 
 .main-left-heading {
-    color: #F9FAF8;
-    font-weight: 900;
-    font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+  font-size: 48px;
 }
 
 .main-left-button {
-    padding: 7px 1em;
-    width: 100px;
-    background-color: #3882F6;
-    border-radius: 8px;
-    border: none;
+  padding: 7px 1em;
+  width: 100px;
+  background-color: #3882f6;
+  border-radius: 8px;
+  border: none;
 }
 
 .main-left-button:hover {
-    background-color: #0044b1;
+  background-color: #0044b1;
 }
 
 .main-left-caption {
-    font-size: 18px;
-    color: #E5E7EB;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .main-right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: grey;
-    height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  height: 250px;
 }
 
 /* Second Section Styling */
 
 .second-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 13em;
-    margin-top: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 13em;
+  margin-top: 3em;
 }
 
 .second-heading {
-    font-size: 36px;
-    font-weight: 900;
-    color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
 }
 .figure-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1.5em;
-    margin: 3em 0 6em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  margin: 3em 0 6em 0;
 }
 
 .figure {
-    text-align: center;
-    max-width: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: .5em;
+  text-align: center;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5em;
 }
 
 figure img {
-    border: 4px solid #3882F6;
-    border-radius: 20px;
-    width: 160px;
-    height: 160px;
+  border: 4px solid #3882f6;
+  border-radius: 20px;
+  width: 160px;
+  height: 160px;
 }
 
 figcaption {
-    font-size: 18px;
-    color: #898a8d;
+  font-size: 18px;
+  color: #898a8d;
 }
 
 /* Quote Section */
 .quote-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #E5E7EB;
-    padding: 7em 13em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  padding: 7em 13em;
 }
 
 .quote {
-    font-size: 36px;
-    font-weight: 100;
-    color: #1f2937;
+  font-size: 36px;
+  font-weight: 100;
+  color: #1f2937;
 }
 
 .quote-author {
-    align-self: flex-end;
-    font-weight: bolder;
-    font-size: 24px;
-    color: #1f2937;   
+  align-self: flex-end;
+  font-weight: bolder;
+  font-size: 24px;
+  color: #1f2937;
 }
 
 /* Call to action */
 .fourth-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5em 13em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5em 13em;
 }
 
 .callto-action {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #3882F6;
-    padding: 3em;
-    width: 100%;
-    border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  padding: 3em;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .callto-action-button {
-    border: 2px solid #FFF;
-    padding: 7px 1em;
-    width: 150px;
-    background-color: #3882F6;
-    border-radius: 8px;
-    font-size: 18px;
-    color: #E5E7EB;
+  border: 2px solid #fff;
+  padding: 7px 1em;
+  width: 150px;
+  background-color: #3882f6;
+  border-radius: 8px;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
-.callto-action-button:hover{
-    background-color: #0044b1;
+.callto-action-button:hover {
+  background-color: #0044b1;
 }
 
 .callto-action-heading {
-    font-size: 24px;
-    color: #FFF;
+  font-size: 24px;
+  color: #fff;
 }
 
 .callto-action-caption {
-    font-size: 18px;
-    color: #E5E7EB;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 /* Footer */
 footer {
-    background-color: #1f2937;
-    color: #FFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2em 0;
+  background-color: #1f2937;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 0;
 }
 
 .footer-copyright {
-    font-size: 18px;
-    color: #E5E7EB;
+  font-size: 18px;
+  color: #e5e7eb;
 }
